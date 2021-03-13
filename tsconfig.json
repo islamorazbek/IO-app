@@ -18,7 +18,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    // to solve Could not find a declaration file for module 'react' problem
+    "noImplicitAny": false,
   },
   "include": [
     "src"
